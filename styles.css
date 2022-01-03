@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #ddd;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+.container {
+  background-color: #ddd;
+  height: 30vh;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.item {
+  border: medium solid #999;
+  /* width: 20%; */
+  /* height: 20%; */
+  background-color: #666;
+}
