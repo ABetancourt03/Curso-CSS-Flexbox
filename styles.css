@@ -27,4 +27,7 @@ body {
   /* width: 20%; */
   /* height: 20%; */
   background-color: #666;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
 }
