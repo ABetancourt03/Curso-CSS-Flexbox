@@ -33,13 +33,16 @@ body {
   flex-shrink: 1;
   flex-basis: 100px;
   flex: 0 1 150px; /* shorthand de flex-grow, flex-shrink y flex-basis, en ese orden */
+  order: 0;
 }
 
-/* .item:nth-child(2) {
-  flex-grow: 0;
-  flex-shrink: 2;
+.item:nth-child(2) {
+  /* flex-grow: 0;
+  flex-shrink: 2; */
+  order: -1;
 }
 
 .item:nth-child(3) {
   flex-grow: 0;
-} */
+  align-self: center;
+}
